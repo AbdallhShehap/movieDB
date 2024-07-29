@@ -1,4 +1,79 @@
 body, html {
     margin: 0;
     padding: 0;
+    background-color:#fff
 }
+
+.container-all{
+    width: 86%;
+    margin: auto;
+    height: auto;
+    display: flex;    
+}
+
+.sidebar-filter{
+    width: 25%;
+    padding-top: 70px;
+}
+
+.contant-movie{
+    width: 75%;
+    /* background-color: brown; */
+    padding-top: 45px;
+
+}
+
+
+@media (min-width:1750px) {
+
+    .sidebar-filter{
+        width: 25%;
+        padding-top: 70px;
+    }
+    
+    .contant-movie{
+        width: 70%;
+    
+    
+    }
+
+    .container-all{
+        width: 1300px;
+        margin: auto;}
+}
+
+@media (max-width:1290px) {
+  
+.container-all{
+   gap: 7%;
+ 
+}
+
+}
+
+
+@media (max-width:984px) {
+
+    .container-all{
+       gap: 7rem;
+     
+    }
+    
+    }
+
+
+@media (max-width:592px) {
+
+    .sidebar-filter{
+     width: 15%;
+    
+     
+    }
+
+    .contant-movie{
+        width: 60%;
+        margin-left: 10%;
+    
+    }
+    
+    }

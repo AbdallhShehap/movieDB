@@ -1,0 +1,200 @@
+.fillter-comp{
+    max-width: 251px;
+    width: 251px; 
+    margin-bottom: 3rem;   
+}
+
+
+.fillter-details{
+    background-color:#ffffff;
+    padding:14px 9px 16px;
+    max-width: 251px;
+    width: 251px;
+    border: 2px solid #e3e3e3;
+    box-shadow: 0px 2px 8px 0px rgba(83, 71, 99, 0.05);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.fillter-details2-container{
+    background-color:#ffffff;
+    max-width: 251px;
+    width: 251px;
+    border-bottom: 1px solid #e3e3e3;
+    border-left: 1px solid #e3e3e3;
+    border-right: 1px solid #e3e3e3;
+    border-top: none;
+    box-shadow: 0px 2px 8px 0px rgba(83, 71, 99, 0.05);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height:auto;
+}
+.fillter-details2-container-active{
+    background-color:#ffffff;
+    max-width: 251px;
+    width: 251px;
+    border-bottom: 1px solid #e3e3e3;
+    border-left: 1px solid #e3e3e3;
+    border-right: 1px solid #e3e3e3;
+    border-top: 1px solid #e3e3e3;
+    box-shadow: 0px 2px 8px 0px rgba(83, 71, 99, 0.05);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height:auto;
+}
+
+.fillter-details2{
+    background-color:#ffffff; 
+    max-width: 251px;
+    width: 251px;
+    padding:14px 9px 16px;
+
+    border: 1px solid #e3e3e3;
+    box-shadow: 0px 2px 8px 0px rgba(83, 71, 99, 0.05);
+    height:auto;
+  
+}
+
+.fillter-details{
+    background-color:#ffffff;
+    padding:14px 9px 16px;
+    max-width: 251px;
+    width: 251px;
+    border-bottom: 2px solid #e3e3e3;
+    border-top: 2px solid #e3e3e3;
+    border-right: 2px solid #e3e3e3;
+    border-left: 2px solid #e3e3e3;
+    box-shadow: 0px 2px 8px 0px rgba(83, 71, 99, 0.05);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fillter-details-active{
+    background-color:#ffffff;
+    padding:14px 9px 16px;
+    max-width: 252px;
+    width: 252px;
+    border-bottom: none;
+    border-top: 2px solid #e3e3e3;
+    border-right: 2px solid #e3e3e3;
+    border-left: 2px solid #e3e3e3;
+    box-shadow: 0px 2px 8px 0px rgba(83, 71, 99, 0.05);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0x;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.show-me{
+    padding:5px 9px 16px ;
+    background-color:#ffffff;
+    max-width: 227px;
+    width: 227px;
+    border-bottom: 1px solid #e3e3e3;
+    height:auto;
+
+}
+
+.all-Availabilities{
+    padding:5px 9px 16px;
+    background-color:#ffffff;
+    max-width: 241px;
+    width: 241px;
+    border-bottom: 1px solid #e3e3e3;
+    height:auto;
+    
+}
+
+.release-datess{
+    
+    background-color:#ffffff;
+    max-width: 247px;
+    width: 247px;
+    border-bottom: 1px solid #e3e3e3;
+    height:auto;
+}
+
+.all-release-dates{
+    padding-left: 9px;
+}
+
+.release-dates-country{
+    padding-top:3px;
+    padding-bottom: 4px;
+
+}
+
+.release-dates-selectOption{
+    background-color: #e4e7eb;
+    padding: 7px;
+    width: 200px;
+    max-width: 200px;
+    border-radius: 5px;
+    color:#212529 ;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.4px;
+    margin-top: 9px;
+    margin-bottom: 5px;
+}
+
+.release-dates-option-data{
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 14.4px;
+}
+
+.release-dates-option-data:hover{
+    background-color: #f0f0f0; 
+
+}
+
+
+.certification{
+    padding:16px 9px 6px;
+    border-bottom: 1px solid #e3e3e3;
+
+}
+
+
+.user-score{
+    padding:16px 9px 6px;
+    border-bottom: 1px solid #e3e3e3;
+    
+}
+
+.keywords{
+    padding:16px 9px 6px;
+
+}
+
+
+@media (max-width:590px) {
+    
+    .fillter-details{
+        max-width: 10rem;
+    }   
+    
+    .release-dates-selectOption{
+        padding: 5px;
+        width: 100px;
+        max-width: 100px;
+        font-size: 12.4px;
+    }
+}

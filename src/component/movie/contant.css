@@ -1,0 +1,138 @@
+
+
+.movie-list{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+/* error and loading spinner */
+
+/* LoadingSpinner.css */
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Adjust height as needed */
+}
+
+/* ErrorMessage.css */
+.error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
+/* movieCard css  */
+
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 173px;
+  height: calc(width * 1.5);
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.movie-poster {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  
+}
+
+.movie-info {
+  width: 95%;
+  text-align: start;
+  padding-left: 5px ;
+  
+}
+
+.movie-info:hover {
+ color: #01b4e4;
+ cursor: pointer;
+}
+
+.movie-title {
+  margin-top: 10px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight:900;
+  /* height: 1.7rem; */
+
+}
+
+.release-date {
+  margin-top: .9rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.btn-more-movies{
+  background-color: #01b4e4;
+  width: 96%;
+  border-radius: 8px;
+  color: white;
+  padding: 15px;
+  border: none;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  margin-left: 1rem;
+  font-size: 18px;
+  /* transition: 0.1s; */
+}
+
+.btn-more-movies:hover{
+color: black;
+}
+
+@media (max-width: 768px) {
+  .movie-card {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 75%;
+    width: 75%;
+    height: calc(width * 1.5);
+    margin-left: 6rem;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+}
+
+
+@media (max-width: 590px) {
+  .movie-card {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%;
+    width: 80%;
+    height: calc(width * 1.5);
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    margin-right: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+}
