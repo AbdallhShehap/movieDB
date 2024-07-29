@@ -1,0 +1,169 @@
+
+.whereToWatch{
+    max-width: 251px;
+    width: 251px;
+     cursor: pointer;
+} 
+
+.arrow-container{
+    height: 100%;
+    width: 35px;
+    cursor: pointer;
+}
+
+.whereToWatch-details2-container{
+    /* background-color:#c91919; */
+    padding:14px 9px 16px;
+    max-width: 251px;
+    width: 251px;
+    border-bottom: 1px solid #e3e3e3;
+    border-left: 2px solid #e3e3e3;
+    border-right: 2px solid #e3e3e3;
+    border-top: none;
+    box-shadow: 0px 2px 8px 0px rgba(83, 71, 99, 0.05);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height:auto;
+}
+
+
+.whereToWatch-details2{
+    /* background-color:#612d2d;  */
+    /* padding:14px 9px 16px; */
+    max-width: 251px;
+    width: 251px;
+    /* border: 1px solid #e3e3e3; */
+    box-shadow: 0px 2px 8px 0px rgba(83, 71, 99, 0.05);
+    height:auto;
+  
+}
+
+.whereToWatch-details{
+    background-color:#ffffff;
+    padding:14px 9px 16px;
+    max-width: 251px;
+    width: 251px;
+    border-bottom: 2px solid #e3e3e3;
+    border-top: 2px solid #e3e3e3;
+    border-right: 2px solid #e3e3e3;
+    border-left: 2px solid #e3e3e3;
+    box-shadow: 0px 2px 8px 0px rgba(83, 71, 99, 0.05);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.whereToWatch-details-active{
+    background-color:#ffffff;
+    padding:14px 9px 16px;
+    max-width: 251px;
+    width: 251px;
+    border-bottom: 1px solid #e3e3e3;;
+    border-top: 2px solid #e3e3e3;
+    border-right: 2px solid #e3e3e3;
+    border-left: 2px solid #e3e3e3;
+    box-shadow: 0px 2px 8px 0px rgba(83, 71, 99, 0.05);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0x;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.option-data {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 14.4px;
+}
+
+.option-data:hover {
+    background-color: #f0f0f0; 
+} 
+
+.number-whereToWatch{
+    
+    margin-left: 20px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,.08);
+    height:25px;
+    width: 25px;
+    
+  }
+
+.details-subtitle{
+    color: gray;
+}
+
+.details-subtitle p{
+    margin-left: 17px;
+}
+
+
+.selectOption{
+    background-color: #e4e7eb;
+    padding: 7px;
+    width: 200px;
+    max-width: 200px;
+    border-radius: 5px;
+    color:#212529 ;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.4px;
+}
+
+.country{
+    padding:14px 9px 16px;
+    max-width: 15.8rem;
+    width: 15.8rem;
+}
+
+
+
+@media (max-width:590px) {
+  .whereToWatch{
+   max-width: 13rem;
+  } 
+  .whereToWatch-details{
+    max-width: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    
+  }   
+  .titel-whereToWatch{
+    font-size: 12px;
+   
+    
+  }   
+
+  .number-whereToWatch{
+    height:20px;
+    width: 20px;
+    margin-left: 2px;
+    font-size: 15px;
+  }
+  
+
+  .details-subtitle{
+    font-size: 10px;
+    font-weight: 800;
+}
+
+.selectOption{
+    padding: 5px;
+    width: 100px;
+    max-width: 100px;
+    font-size: 12.4px;
+}
+
+
+}

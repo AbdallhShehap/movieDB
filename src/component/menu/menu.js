@@ -22,10 +22,13 @@ export default function Menu() {
 
 
 function handleMouseEnter(menu){
+  console.log("mouse enter")
   setVisibleDropdown(menu)
 }
 
 function handleMouseLeave(){
+  console.log("mouse enter")
+
 setVisibleDropdown(null)
 }
 
@@ -76,11 +79,11 @@ setVisibleDropdown(null)
         
 
           <ul className='icon-menu'>
-              <li><img src={plusIcon}  alt='icon' width={19} height={19}/></li>
+              <li><img src={plusIcon}  alt='icon' width={22} height={22}/></li>
               <li><img src={translateIcon}  alt='icon' wwidth={23} height={23} /></li>
               <li><img src={notificationIcon}  alt='icon' width={23} height={23} /></li>
-              <li><img src={mail}  alt='icon'  width={29} height={29}/></li>
-              <li><img src={serchIcon} alt='icon' width={29} height={29}/></li>
+              <li><img src={mail}  alt='icon'  width={25} height={25}/></li>
+              <li><img src={serchIcon} alt='icon' width={25} height={25}/></li>
             
             </ul>
 

@@ -1,0 +1,39 @@
+.date-range-picker {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 2rem;
+    padding-top: 5px;
+    padding-bottom: 16px;
+
+
+}
+
+.date-picker {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    cursor: "pointer"
+}
+
+.date-picker-input1, .date-picker-input2{
+    width: 100px;
+    max-width: 100px;
+    margin-left: 10%;
+    border-radius: 5px;
+    border: 1px solid grey;
+    
+}
+
+.date-picker-input-active1,.date-picker-input-active2{
+    margin-left: 10%;
+    border-radius: 5px;
+    border: 1px solid #01b4e4;
+    width: 100px;
+    max-width: 100px;
+    outline: none;
+}
+
+
+.date-picker label {
+    margin-bottom: 5px;
+}

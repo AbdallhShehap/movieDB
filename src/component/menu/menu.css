@@ -26,8 +26,7 @@ header{
     display: flex;
     justify-content: start;
     align-items: center;
-    
-
+    vertical-align: baseline;
 }
 
 .lift-menu img{
@@ -48,6 +47,9 @@ header{
     font-weight: bold;
     margin-left: 2rem;
     font-size:15px;
+    padding-top: 0px;
+    position: relative;
+
 
 }
 
@@ -63,11 +65,10 @@ header{
 .icon-menu{
     list-style-type: none;
     display: flex;
-    /* justify-content: space-around; */
     justify-content: end;
     gap: 30px;
-    align-items: center;
     vertical-align: baseline;
+    padding-top: 4px;
 }
 
 .icon-menu li {
@@ -76,7 +77,15 @@ header{
 
 }
 
+
+  
+  .menu-tab li:hover .dropdown-menu {
+    display: block;
+  }
+
+
 .dropdown-menu {
+    display: none;
     background: #fff;
     border: 0.5px solid rgb(193, 183, 183);
     box-shadow: 0px 10px 30px 0px rgba(82, 63, 105, 0.05);
@@ -86,8 +95,10 @@ header{
 }
 
 .dropdown-menu ul{
-    padding: 0;
+    padding: 10px;
     margin: 0;
+    
+
 }
 
 .dropdown-menu ul li{
@@ -100,7 +111,7 @@ header{
     display: none;
   }
 
-  @media (max-width: 840px) {
+  @media (max-width: 884px) {
     .menu{
         width: 90%;
     }
@@ -130,4 +141,12 @@ header{
     .menu-tab{
         display: none;
     }
+  }
+
+  @media (min-width: 1750px) {
+    .content-menu{
+        width: 1300px;
+        margin: auto;
+    }
+    
   }
